@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL ??
+  "https://facturely-fzzp2ca02-edunos-jimmys-projects.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
